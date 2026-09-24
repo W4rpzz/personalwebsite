@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+  color: #000000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 32px;
+  border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Project cards */
+#projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+#projects li {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 14px 18px;
+  margin-bottom: 12px;
+  transition: 0.2s;
+}
+
+#projects li:hover {
+  transform: translateY(-3px);
+  border-color: #08acd4;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 24px;
+  color: #666;
+}
